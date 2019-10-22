@@ -1,7 +1,10 @@
 public class Main {
     public static void main(String[] args) {//        System.out.println("Hello world");
-        Lesson20191022.zeroStrings(5);
-        Lesson20191022.englishByNumber(5);
+        int tmpReturnNumber;
+        System.out.println("Zero strings:");
+        tmpReturnNumber = Lesson20191022.zeroStrings(5);
+        System.out.println("English letters by 5:");
+        tmpReturnNumber = Lesson20191022.englishByNumber(5);
         if(!existsNumberArgument(args)){
             System.out.println("No numeric arguments");
             getPrimeNumbers(2L, 100L);
